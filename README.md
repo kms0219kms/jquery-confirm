@@ -13,15 +13,15 @@ A multipurpose plugin for alert, confirm & dialog, with Super powers.
 * prevent Dialog close on background click
 * callback function, and ton more
 
-View Detailed [Documentation & Examples](http://craftpip.github.io/jquery-confirm)
+View Detailed [Documentation & Examples](http://kms0219kms.github.io/jquery-confirm)
 
 ## Installation
 
-Download the latest release [here](https://github.com/craftpip/jquery-confirm/archive/master.zip) and use the files within `dist` folder.
+Download the latest release [here](https://github.com/kms0219kms/jquery-confirm/archive/master.zip) and use the files within `dist` folder.
 
 via CDN:  
-`<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.2/jquery-confirm.min.css">`  
-`<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.2/jquery-confirm.min.js"></script>`
+`<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jquery-confirm@3.3.5/dist/jquery-confirm.min.css">`  
+`<script src="https://cdn.jsdelivr.net/npm/jquery-confirm@3.3.5/dist/jquery-confirm.min.js"></script>`
 
 via Bower:  
 `$ bower install craftpip/jquery-confirm`
@@ -55,7 +55,7 @@ $.confirm({
 
 ## Demo and Documentation
 
-See Detailed Docs + Example [here](http://craftpip.github.io/jquery-confirm).
+See Detailed Docs + Example [here](http://kms0219kms.github.io/jquery-confirm).
 
 ## Authors
 
@@ -69,9 +69,12 @@ Please post issues and feature request here [Github issues](https://github.com/c
 
 The `$.alert()` , `$.confirm()` & `$.dialog()` are alias of `jconfirm();`.
 
-Checkout the [documentation](http://craftpip.github.io/jquery-confirm) for further information.
+Checkout the [documentation](http://kms0219kms.github.io/jquery-confirm) for further information.
 
 ## Version changes
+
+(new in 3.3.5)
+* Fixed XSS (Cross Site Scripting) Vulnerability. PR by [mufeedvh](https://github.com/mufeedvh)
 
 (new in 3.3.3) 
 * Safari height bug fix. PR by [lanre-ade](https://github.com/lanre-ade)
