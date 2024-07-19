@@ -1,10 +1,10 @@
 /*!
- * jquery-confirm v3.3.4 (http://craftpip.github.io/jquery-confirm/)
- * Author: Boniface Pereira
+ * jquery-confirm v3.3.5 (http://craftpip.github.io/jquery-confirm/)
+ * Author: Boniface Pereira, Mufeed VH, Minsu Kim
  * Website: www.craftpip.com
  * Contact: hey@craftpip.com
  *
- * Copyright 2013-2019 jquery-confirm
+ * Copyright 2013-2024 jquery-confirm
  * Licensed under MIT (https://github.com/craftpip/jquery-confirm/blob/master/LICENSE)
  */
 
@@ -750,8 +750,9 @@
             if(this.closeIcon){
                 if(this.closeIconClass){
                     // user requires a custom class.
-                    var closeHtml = '<i class="' + this.closeIconClass + '"></i>';
+                    var closeHtml = '<i id="closeIconClass"></i>';
                     this.$closeIcon.html(closeHtml);
+                    $("#closeIconClass").addClass(this.closeIconClass);
                 }
 
                 this.$closeIcon.click(function(e){
@@ -831,7 +832,8 @@
             if(this.isAjaxLoading && !force)
                 return;
 
-            this.$icon.html(this.icon ? '<i class="' + this.icon + '"></i>' : '');
+            this.$icon.html(this.icon ? '<i id="setIcon"></i>' : '');
+            $("#setIcon").addClass(this.icon);
             this.updateTitleContainer();
         },
         updateTitleContainer: function(){
