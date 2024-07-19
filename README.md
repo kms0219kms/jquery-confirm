@@ -20,8 +20,8 @@ View Detailed [Documentation & Examples](http://kms0219kms.github.io/jquery-conf
 Download the latest release [here](https://github.com/kms0219kms/jquery-confirm/archive/master.zip) and use the files within `dist` folder.
 
 via CDN:  
-`<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jquery-confirm@3.3.5/dist/jquery-confirm.min.css">`  
-`<script src="https://cdn.jsdelivr.net/npm/jquery-confirm@3.3.5/dist/jquery-confirm.min.js"></script>`
+`<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/kms0219kms/jquery-confirm@3.3.5/dist/jquery-confirm.min.css">`  
+`<script src="https://cdn.jsdelivr.net/gh/kms0219kms/jquery-confirm@3.3.5/dist/jquery-confirm.min.js"></script>`
 
 via Bower:  
 `$ bower install craftpip/jquery-confirm`
